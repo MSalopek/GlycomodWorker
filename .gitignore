@@ -25,5 +25,5 @@ var/
 .installed.cfg
 *.egg
 *.csv
-*.txt
+test.txt
 *.log
