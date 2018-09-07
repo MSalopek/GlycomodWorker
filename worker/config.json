@@ -1,0 +1,143 @@
+{
+  "glycomod_link": "https://web.expasy.org/glycomod/",
+  
+  "col_names": [
+    "EXP_mass",
+    "Tag",
+    "Tag_mass",
+    "Comp_SHORT",
+    "Comp_LONG",
+    "[MH]+",
+    "Error",
+    "[MTagH]+",
+    "[MTagNa]+",
+    "[MTagK]+",
+    "[MTagNH4]+",
+    "[MTagH2]2+",
+    "[MTagHNa]2+",
+    "[MTagHK]2+",
+    "[MTagNa2]2+"
+    ],
+  
+  "Tolerance": "0.5",
+  
+  "results_folder": "null",
+
+  "chromedriver_path": "null",
+
+  "mono_masses_underivatized": {
+    "(Hex)": 162.0528,
+    "(Man)": 162.0528,
+    "(HexNAc)": 203.0794,
+    "(GlcNAc)": 203.0794,
+    "(GalNAc)": 203.0794,
+    "(Deoxyhexose)": 146.0579,
+    "(Pent)": 132.0423,
+    "(NeuAc)": 291.0954,
+    "(NeuGc)": 307.0903,
+    "(KDN)": 250.0689,
+    "(HexA)": 176.03209,
+    "Acetate": 42.0106,
+    "H+": 1.007276, 
+    "H": 1.00783, 	
+    "H2O": 18.01056,
+    "H3O+": 19.01783,
+    "K+": 38.963707, 
+    "Na+": 22.989768, 
+    "(Phos)": 79.9663, 
+    "(Sulph)": 79.9568,
+    "Trifluoroacetic acid": 112.9850391,
+    "ACN": 41.02655,
+    "NH4+": 18.04
+  },
+
+  "avg_masses_underivatized":{
+    "(Hex)": 162.1424,
+    "(Man)": 162.1424,
+    "(HexNAc)": 203.1950,
+    "(GlcNAc)": 203.1950,
+    "(GalNAc)": 203.1950,
+    "(Deoxyhexose)": 146.1430,
+    "(Pent)": 132.1161,
+    "(NeuAc)": 291.2579,
+    "(NeuGc)": 307.2573,
+    "(KDN)": 250.2053,
+    "(HexA)": 176.1259,
+    "Acetate": 42.0373,
+    "H+": 1.00739, 
+    "H": 1.00794, 	
+    "H2O": 18.01524,
+    "H3O+": 19.02263,
+    "K+": 39.0983, 
+    "Na+": 22.998977, 
+    "(Phos)": 79.9799, 
+    "(Sulph)": 80.0642,
+    "Trifluoroacetic acid": 113.0160096
+  },
+
+  "reducing_end_tag_mono":{
+    "ProA": 219.173,
+    "2-AB": 120.069
+  },
+
+  "reducing_end_tag_avg": {
+    "ProA": 219.326,
+    "2-AB": 120.152
+  },
+  "reducing_end_tag_mono_full":{
+    "ProA": 235.168457,
+    "2-AB": 136.063660
+  },
+
+  "reducing_end_tag_avg_full": {
+    "ProA": 235.325,
+    "2-AB": 136.151
+  },
+  
+  "adducts": {
+    "H+": [1.007276, 1],
+    "Na+": [22.989768, 1],
+    "K+": [38.963707, 1],
+    "NH4+": [18.04, 1],
+    "2H2+": [2.014552, 2],
+    "HK2+": [39.970983, 2],
+    "HNa2+": [23.997044, 2],
+    "2K2+": [77.927414, 2],
+    "2Na2+": [45.979536, 2],    
+    "NaK2+": [61.953475, 2],
+    "NH4H2+": [19.047276, 2]
+  },
+   
+  "translate": {
+    "(Hex)": "H",
+    "(Man)": "H",
+    "(HexNAc)": "N",
+    "(GlcNAc)": "N",
+    "(Deoxyhexose)": "F",	
+    "(NeuAc)":	"S",
+    "(NeuGc)":	"S",
+    "(Pent)":	"P",
+    "(Sulph)": "s",
+    "(Phos)": "p",	
+    "(KDN)": "k",
+    "(HexA)": "A"
+  },
+
+  "default_mono": {
+    "Hexpres": 2,
+    "HexNAcpres": 2,	
+    "Deoxyhexosepres": 1, 	
+    "NeuAcpres": 1,	
+    "NeuGcpres": 0,
+    "Pentpres": 0, 	
+    "Sulphpres":	0,
+    "Phospres": 0,	
+    "KDNpres":	0,
+    "HexApres": 0
+  },
+
+  "default_occurrences": {
+    "HexNAcnb1": 2,
+    "Hexnb1": 3
+  }
+}
