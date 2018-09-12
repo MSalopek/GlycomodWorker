@@ -14,7 +14,6 @@ def string_to_dict(string)-> Dict[str, int]:
         elements_count["(GlcNAc)"] = 2
         return elements_count
 
-    elements = string.split()
     if "+" in string:
         plus_split = string.split(" + ")
         split_elems = plus_split[0].split()
@@ -31,6 +30,7 @@ def string_to_dict(string)-> Dict[str, int]:
             raise ValueError(f"Unexpected trailing sequence {plus_split[1]}, expected (Man)3(GlcNAc)2")
         return elements_count 
 
+    elements = string.split()
     for i in elements:
         sym = i.strip("0123456789")
         num = i[len(sym):]
